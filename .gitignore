@@ -1,3 +1,16 @@
-.venv
-storage_state.json
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de ambiente y estado
 .env
+storage_state.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
